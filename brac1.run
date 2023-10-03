@@ -1,0 +1,6 @@
+reset;
+model brac1.mod;
+data dades_brac.dat;
+option minos_options 'superbasics_limit= 1000';
+solve;
+display y;
